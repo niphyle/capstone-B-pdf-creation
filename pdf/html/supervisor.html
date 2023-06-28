@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>EDF Form - Supervisor</title>
+   <link rel="stylesheet" href="/pdf/css/site.css">
+</head>
+<body>
+   <header>
+      <nav>
+         <a href="/pdf/index.html">Employee Page</a>
+         <a href="http://valenciacollege.edu/">Valencia College</a>
+      </nav>
+   </header>
+   <main>
+      <fieldset>
+         <legend>Supervisor Approval:</legend>
+         <p>
+            I,
+
+            <label for="supName"></label>
+            <input type="text" id="supName" name="supName">
+
+            (print name) acknowledge that this development
+            opportunity is approved for the following reasons: (include how the course work orconference will
+            improve the applicant’s effectiveness and any other reasons for approval).
+         </p>
+         <p>
+            (This sectionis required.)
+         </p>
+         <div>
+            <label for="approvalReason"></label>
+            <textarea id="approvalReason"name="approvalReason" rows="4" cols="100"><textarea>
+         </div>
+         <p>
+            I also acknowledge that should there be insufficient funds available in the employee’s EDF balance,
+            my department budget may be billed for the balance due.
+         </p>
+         <div>
+            <div>
+               <label for="supSignature">Supervisor Signature:</label>
+               <input type="text" id="supSignature"name="supSignature">
+            </div>
+            <div>
+               <label for="supSignDate">Date:</label>
+               <input type="date" id="supSignDate"name="supSignDate">
+            </div>
+         </div>
+      </fieldset>
+   </main>
+</body>
+</html>
